@@ -7,7 +7,13 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		AA78414A139AEB83001D95C2 /* main.cpp in Sources */ = {isa = PBXBuildFile; fileRef = AA784149139AEB83001D95C2 /* main.cpp */; };
+		AA784163139AEC09001D95C2 /* Cell.cpp in Sources */ = {isa = PBXBuildFile; fileRef = AA784151139AEC09001D95C2 /* Cell.cpp */; };
+		AA784164139AEC09001D95C2 /* CellRange.cpp in Sources */ = {isa = PBXBuildFile; fileRef = AA784153139AEC09001D95C2 /* CellRange.cpp */; };
+		AA784165139AEC09001D95C2 /* Curl.cpp in Sources */ = {isa = PBXBuildFile; fileRef = AA784155139AEC09001D95C2 /* Curl.cpp */; };
+		AA784166139AEC09001D95C2 /* Spreadsheet.cpp in Sources */ = {isa = PBXBuildFile; fileRef = AA78415B139AEC09001D95C2 /* Spreadsheet.cpp */; };
+		AA784167139AEC09001D95C2 /* SpreadsheetService.cpp in Sources */ = {isa = PBXBuildFile; fileRef = AA78415D139AEC09001D95C2 /* SpreadsheetService.cpp */; };
+		AA784168139AEC09001D95C2 /* thirteen.cpp in Sources */ = {isa = PBXBuildFile; fileRef = AA78415F139AEC09001D95C2 /* thirteen.cpp */; };
+		AA784169139AEC09001D95C2 /* Worksheet.cpp in Sources */ = {isa = PBXBuildFile; fileRef = AA784161139AEC09001D95C2 /* Worksheet.cpp */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXCopyFilesBuildPhase section */
@@ -24,8 +30,25 @@
 
 /* Begin PBXFileReference section */
 		AA784145139AEB83001D95C2 /* thirteen */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = thirteen; sourceTree = BUILT_PRODUCTS_DIR; };
-		AA784149139AEB83001D95C2 /* main.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = main.cpp; sourceTree = "<group>"; };
 		AA78414B139AEB83001D95C2 /* thirteen.1 */ = {isa = PBXFileReference; lastKnownFileType = text.man; path = thirteen.1; sourceTree = "<group>"; };
+		AA784151139AEC09001D95C2 /* Cell.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = Cell.cpp; sourceTree = "<group>"; };
+		AA784152139AEC09001D95C2 /* Cell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Cell.h; sourceTree = "<group>"; };
+		AA784153139AEC09001D95C2 /* CellRange.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = CellRange.cpp; sourceTree = "<group>"; };
+		AA784154139AEC09001D95C2 /* CellRange.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CellRange.h; sourceTree = "<group>"; };
+		AA784155139AEC09001D95C2 /* Curl.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = Curl.cpp; sourceTree = "<group>"; };
+		AA784156139AEC09001D95C2 /* Curl.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Curl.h; sourceTree = "<group>"; };
+		AA784157139AEC09001D95C2 /* rapidxml_iterators.hpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.h; path = rapidxml_iterators.hpp; sourceTree = "<group>"; };
+		AA784158139AEC09001D95C2 /* rapidxml_print.hpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.h; path = rapidxml_print.hpp; sourceTree = "<group>"; };
+		AA784159139AEC09001D95C2 /* rapidxml_utils.hpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.h; path = rapidxml_utils.hpp; sourceTree = "<group>"; };
+		AA78415A139AEC09001D95C2 /* rapidxml.hpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.h; path = rapidxml.hpp; sourceTree = "<group>"; };
+		AA78415B139AEC09001D95C2 /* Spreadsheet.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = Spreadsheet.cpp; sourceTree = "<group>"; };
+		AA78415C139AEC09001D95C2 /* Spreadsheet.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Spreadsheet.h; sourceTree = "<group>"; };
+		AA78415D139AEC09001D95C2 /* SpreadsheetService.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = SpreadsheetService.cpp; sourceTree = "<group>"; };
+		AA78415E139AEC09001D95C2 /* SpreadsheetService.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SpreadsheetService.h; sourceTree = "<group>"; };
+		AA78415F139AEC09001D95C2 /* thirteen.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = thirteen.cpp; sourceTree = "<group>"; };
+		AA784160139AEC09001D95C2 /* thirteen.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = thirteen.h; sourceTree = "<group>"; };
+		AA784161139AEC09001D95C2 /* Worksheet.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = Worksheet.cpp; sourceTree = "<group>"; };
+		AA784162139AEC09001D95C2 /* Worksheet.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Worksheet.h; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -58,10 +81,51 @@
 		AA784148139AEB83001D95C2 /* thirteen */ = {
 			isa = PBXGroup;
 			children = (
-				AA784149139AEB83001D95C2 /* main.cpp */,
+				AA78416A139AEC1E001D95C2 /* Curl */,
+				AA78416C139AEC43001D95C2 /* Google::Spreadsheet */,
+				AA78416B139AEC2C001D95C2 /* RapidXML */,
+				AA78415F139AEC09001D95C2 /* thirteen.cpp */,
+				AA784160139AEC09001D95C2 /* thirteen.h */,
 				AA78414B139AEB83001D95C2 /* thirteen.1 */,
 			);
 			path = thirteen;
+			sourceTree = "<group>";
+		};
+		AA78416A139AEC1E001D95C2 /* Curl */ = {
+			isa = PBXGroup;
+			children = (
+				AA784155139AEC09001D95C2 /* Curl.cpp */,
+				AA784156139AEC09001D95C2 /* Curl.h */,
+			);
+			name = Curl;
+			sourceTree = "<group>";
+		};
+		AA78416B139AEC2C001D95C2 /* RapidXML */ = {
+			isa = PBXGroup;
+			children = (
+				AA784157139AEC09001D95C2 /* rapidxml_iterators.hpp */,
+				AA784158139AEC09001D95C2 /* rapidxml_print.hpp */,
+				AA784159139AEC09001D95C2 /* rapidxml_utils.hpp */,
+				AA78415A139AEC09001D95C2 /* rapidxml.hpp */,
+			);
+			name = RapidXML;
+			sourceTree = "<group>";
+		};
+		AA78416C139AEC43001D95C2 /* Google::Spreadsheet */ = {
+			isa = PBXGroup;
+			children = (
+				AA784151139AEC09001D95C2 /* Cell.cpp */,
+				AA784152139AEC09001D95C2 /* Cell.h */,
+				AA784153139AEC09001D95C2 /* CellRange.cpp */,
+				AA784154139AEC09001D95C2 /* CellRange.h */,
+				AA78415B139AEC09001D95C2 /* Spreadsheet.cpp */,
+				AA78415C139AEC09001D95C2 /* Spreadsheet.h */,
+				AA78415D139AEC09001D95C2 /* SpreadsheetService.cpp */,
+				AA78415E139AEC09001D95C2 /* SpreadsheetService.h */,
+				AA784161139AEC09001D95C2 /* Worksheet.cpp */,
+				AA784162139AEC09001D95C2 /* Worksheet.h */,
+			);
+			name = "Google::Spreadsheet";
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -111,7 +175,13 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				AA78414A139AEB83001D95C2 /* main.cpp in Sources */,
+				AA784163139AEC09001D95C2 /* Cell.cpp in Sources */,
+				AA784164139AEC09001D95C2 /* CellRange.cpp in Sources */,
+				AA784165139AEC09001D95C2 /* Curl.cpp in Sources */,
+				AA784166139AEC09001D95C2 /* Spreadsheet.cpp in Sources */,
+				AA784167139AEC09001D95C2 /* SpreadsheetService.cpp in Sources */,
+				AA784168139AEC09001D95C2 /* thirteen.cpp in Sources */,
+				AA784169139AEC09001D95C2 /* Worksheet.cpp in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -157,6 +227,15 @@
 				COPY_PHASE_STRIP = NO;
 				GCC_DYNAMIC_NO_PIC = NO;
 				GCC_ENABLE_OBJC_EXCEPTIONS = YES;
+				HEADER_SEARCH_PATHS = /usr/local/boost/include;
+				LIBRARY_SEARCH_PATHS = /usr/local/boost/lib;
+				OTHER_LDFLAGS = (
+					"-lcurl",
+					/usr/local/boost/lib/libboost_date_time.a,
+					/usr/local/boost/lib/libboost_system.a,
+					/usr/local/boost/lib/libboost_filesystem.a,
+					/usr/local/boost/lib/libboost_program_options.a,
+				);
 				PRODUCT_NAME = "$(TARGET_NAME)";
 			};
 			name = Debug;
@@ -168,6 +247,16 @@
 				COPY_PHASE_STRIP = YES;
 				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
 				GCC_ENABLE_OBJC_EXCEPTIONS = YES;
+				HEADER_SEARCH_PATHS = /usr/local/boost/include;
+				LIBRARY_SEARCH_PATHS = /usr/local/boost/lib;
+				ONLY_ACTIVE_ARCH = YES;
+				OTHER_LDFLAGS = (
+					"-lcurl",
+					/usr/local/boost/lib/libboost_date_time.a,
+					/usr/local/boost/lib/libboost_system.a,
+					/usr/local/boost/lib/libboost_filesystem.a,
+					/usr/local/boost/lib/libboost_program_options.a,
+				);
 				PRODUCT_NAME = "$(TARGET_NAME)";
 			};
 			name = Release;
