@@ -66,6 +66,7 @@
 			isa = PBXGroup;
 			children = (
 				AA784148139AEB83001D95C2 /* thirteen */,
+				AA784183139AF231001D95C2 /* Documentation */,
 				AA784146139AEB83001D95C2 /* Products */,
 			);
 			sourceTree = "<group>";
@@ -86,7 +87,6 @@
 				AA78416B139AEC2C001D95C2 /* RapidXML */,
 				AA78415F139AEC09001D95C2 /* thirteen.cpp */,
 				AA784160139AEC09001D95C2 /* thirteen.h */,
-				AA78414B139AEB83001D95C2 /* thirteen.1 */,
 			);
 			path = thirteen;
 			sourceTree = "<group>";
@@ -126,6 +126,15 @@
 				AA784162139AEC09001D95C2 /* Worksheet.h */,
 			);
 			name = "Google::Spreadsheet";
+			sourceTree = "<group>";
+		};
+		AA784183139AF231001D95C2 /* Documentation */ = {
+			isa = PBXGroup;
+			children = (
+				AA78414B139AEB83001D95C2 /* thirteen.1 */,
+			);
+			name = Documentation;
+			path = thirteen;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -280,6 +289,7 @@
 				AA784150139AEB83001D95C2 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
