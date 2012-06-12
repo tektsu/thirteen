@@ -124,7 +124,7 @@ int main(int argc, char * const argv[])
   re::sregex rex = re::sregex::compile("(.+) +(.+)");
   re::smatch matches;
   if(!re::regex_match(name, matches, rex)) {
-    cerr << format("Worksheet name [%1%] does not like a month and year") %
+    cerr << format("Worksheet name [%1%] does not look like a month and year") %
          name << endl;
     return 1;
   }
@@ -226,7 +226,8 @@ Options GetOptions(int argc, char * const argv[])
   // Test for errors
   vector<string> errors;
   if(!(opt.spreadsheet_name.size() || opt.spreadsheet_id.size())) {
-    errors.push_back("Either a spreadsheet name or a spreadsheet id must be specified");
+    errors.push_back("Either a spreadsheet name or a spreadsheet"
+                     " id must be specified");
   }
   if(!opt.user.size()) {
     errors.push_back("No Google Docs user specified");
@@ -306,9 +307,9 @@ void PrintParticipation(ostream& out, const map<string, int>& participation)
       it != participation.end(); ++it) {
     callsigns.push_back((*it).first);
   }
+  sort(callsigns.begin(), callsigns.end(), CompareCallsigns);
 
   // Print the data
-  sort(callsigns.begin(), callsigns.end(), CompareCallsigns);
   for(vector<string>::iterator vt = callsigns.begin();
       vt != callsigns.end(); ++vt) {
     string callsign = *vt;
@@ -325,7 +326,7 @@ void PrintParticipation(ostream& out, const map<string, int>& participation)
 // Return     : true if a < b
 // Note       : This differs from a standard compare in that string length is
 //            : taken into account. A sort using this function will result in
-//            : strings sorted by length, then alphabetically within eacg group.
+//            : strings sorted by length, then alphabetically within each group.
 //------------------------------------------------------------------------------
 bool CompareCallsigns(string a, string b)
 {
